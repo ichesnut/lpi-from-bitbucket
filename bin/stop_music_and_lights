@@ -5,6 +5,8 @@
 # Author: Todd Giles (todd.giles@gmail.com)
 # Modifications: Chris Usey (chris.usey@gmail.com), Sean Millar (sean.millar@gmail.com) 
 
+export SYNCHRONIZED_LIGHTS_HOME=/home/ichesnut/lightshowpi
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Check that the home environment variable is set

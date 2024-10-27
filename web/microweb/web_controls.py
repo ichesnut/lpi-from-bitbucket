@@ -17,7 +17,7 @@ sys.excepthook = excepthook
  
 server = CGIHTTPServer_root.HTTPServer
 handler = CGIHTTPServer_root.CGIHTTPRequestHandler
-server_address = ("", 80)
+server_address = ("", 8080)
 lspitools = os.getenv("SYNCHRONIZED_LIGHTS_HOME") + "/web/microweb"
 os.chdir(lspitools)
 handler.cgi_directories = ["/cgi-bin"]
